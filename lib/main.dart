@@ -151,7 +151,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(10),
               ),
-              child: Text(message.text),
+              child: Text(
+                message.text,
+                style: TextStyle(fontSize: 16),
+              ),
             ),
           ),
           Row(

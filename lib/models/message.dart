@@ -16,7 +16,8 @@ List<Message> messages = [
   Message(
     sender: User.support,
     time: '5:30 PM',
-    text: 'Hello , thank you for calling Provide Support. How may I help you?',
+    text:
+        'Hello , thank you for contacting our customer Support. How may I help you?',
   ),
   Message(
     sender: User.customer,
